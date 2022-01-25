@@ -5,7 +5,7 @@ include("SpreadFire.jl")
 include("Animation.jl")
 
 export createforest
-export step
+export burn
 export plotforest
 
 end
