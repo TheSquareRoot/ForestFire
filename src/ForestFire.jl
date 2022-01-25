@@ -1,0 +1,5 @@
+module ForestFire
+
+# Content
+
+end
