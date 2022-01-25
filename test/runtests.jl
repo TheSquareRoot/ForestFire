@@ -1,6 +1,6 @@
 using ForestFire
 using Test
 
-@testset "Evolution.jl" begin
+@testset "ForestFire.jl" begin
     # Tests
 end
