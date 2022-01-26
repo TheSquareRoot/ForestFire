@@ -3,9 +3,9 @@ using .ForestFire
 using GLMakie
 
 # PARAMETERS
-nx = 100;
-ny = 100;
-density = 0.7;
+nx = 1000;
+ny = 1000;
+density = 0.5;
 transmission_prob = 0.8;
 
 # Initialize forest
@@ -13,6 +13,8 @@ forest = Observable(createforest(nx, ny, density));
 forest[][div(nx, 2), div(ny, 2)] = 2;
 
 # Initialize Makie scene
+# fig = Figure()
+# ax = Axis(fig[1, 1])
 fig, ax = plotforest(forest, nx, ny)
 
 # Interactive run button
